@@ -10,11 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let API : URL = "https://api.github.com"
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    
 
 }
-
+class repo: UITableViewCell {
+    
+}
