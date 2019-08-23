@@ -10,7 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    let API : URL = "https://api.github.com"
+    let url = "https://api.github.com"
+    
+   
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
