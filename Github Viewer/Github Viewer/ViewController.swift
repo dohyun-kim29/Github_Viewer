@@ -37,7 +37,15 @@ class ViewController: UIViewController {
             }.resume()
     }
     class repo: UITableViewCell {
+        var repoName : String?
+    }
+    
+    class repoViewController: UITableViewController {
+        var list = [repo]()
         
+        override func viewDidLoad() {
+            
+        }
     }
     
 }

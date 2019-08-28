@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					7280A440230D544B000C6743 = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
 					};
 					7280A454230D544E000C6743 = {
 						CreatedOnToolsVersion = 10.3;
@@ -432,6 +433,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VSX6758FTG;
 				INFOPLIST_FILE = "Github Viewer/Info.plist";
@@ -441,6 +443,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "dohyun-kim.Github-Viewer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,6 +453,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VSX6758FTG;
 				INFOPLIST_FILE = "Github Viewer/Info.plist";
