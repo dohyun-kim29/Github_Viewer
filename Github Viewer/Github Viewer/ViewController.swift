@@ -8,14 +8,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UITableViewController {
     
-    
-    override func viewDidLoad() {
-        getData()
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
+    var list = [repo]()
+   
     
     func getData() {
         var request = URLRequest(url: URL(string: "https://api.github.com")!)
@@ -39,13 +35,16 @@ class ViewController: UIViewController {
     class repo: UITableViewCell {
         var repoName : String?
     }
-    
     class repoViewController: UITableViewController {
-        var list = [repo]()
+        
         
         override func viewDidLoad() {
+            var rpo = repo()
+            rpo.repoName = "\(JSONSerialization.self)"
             
         }
     }
     
+    
 }
+
