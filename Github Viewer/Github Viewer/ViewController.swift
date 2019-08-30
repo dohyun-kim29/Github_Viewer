@@ -32,19 +32,23 @@ class ViewController: UITableViewController {
             }
             }.resume()
     }
-    class repo: UITableViewCell {
-        var repoName : String?
-    }
-    class repoViewController: UITableViewController {
-        
-        
-        override func viewDidLoad() {
-            var rpo = repo()
-            rpo.repoName = "\(JSONSerialization.self)"
-            
-        }
+   
+   
     }
     
+
+
+
+class repo: UITableViewCell {
+    var repoName : String?
+}
+class repoViewController: UITableViewController {
     
+    
+    override func viewDidLoad() {
+        var rpo = repo()
+        rpo.repoName = "\(JSONSerialization.self)"
+        
 }
 
+}
