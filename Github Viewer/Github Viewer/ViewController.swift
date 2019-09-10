@@ -55,7 +55,7 @@ class ViewController: UITableViewController {
 
 
 
-class repo: UITableViewCell {
+class repo: UITableViewCell { 
     var repoName : String?
 }
 
